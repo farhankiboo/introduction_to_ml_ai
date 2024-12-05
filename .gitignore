@@ -1,4 +1,4 @@
 .gitignore
 pacmann_env/
 03_introduction_to_machine_learning/data/processed/
-03_introduction_to_machine_learning/dataset/
+03_introduction_to_machine_learning/data/raw/
