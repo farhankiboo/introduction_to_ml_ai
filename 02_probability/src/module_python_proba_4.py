@@ -53,7 +53,7 @@ def simulasi_lempar_dua_dadu(jumlah_pelemparan):
             peluang_lemparan[angka_dadu_1, angka_dadu_2] = np.round(peluang_B_A, 3)
 
     # Plotting
-    sns.set(font_scale=1.5)
+    sns.set_theme(font_scale=1.5)
 
     fig, ax = plt.subplots(nrows=1, ncols=2, figsize=(20,7))
     sns.heatmap(jumlah_lemparan, annot=True, fmt=".0f",
